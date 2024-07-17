@@ -1,0 +1,102 @@
+/* src/components/Card.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Bubbles&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+
+.card {
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgb(47, 9, 103);
+    background-color: #a887e1;
+    box-shadow: 5px 10px 15px #9474a7;
+    border-radius: 15px;
+}
+
+.card h1 {
+    font-family: "Dancing Script", system-ui;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px #8e4d9d;
+}
+
+.card p {
+    font-family: "Oregano", cursive;
+    font-size: 1.5rem;
+    color: rgb(69, 54, 75);
+}
+
+.card button {
+    background-color: #ad91c5;
+    border: 0;
+    padding: 10px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+span {
+    text-decoration: underline;
+    text-shadow:1px 1px rgb(80, 28, 102);
+}
+
+.card .gif {
+    width: 80%;
+    max-width: 150px;
+    height: auto;
+    margin-top: 20px;
+    object-fit: cover;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation for GIF */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        margin: 40px;
+        padding: 50px;
+    }
+
+    .card h1 {
+        font-size: 4rem;
+    }
+
+    .card p {
+        font-size: 2rem;
+    }
+
+    .card .gif {
+        width: 50%;
+        max-width: 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .card {
+        margin: 60px;
+        padding: 60px;
+    }
+
+    .card h1 {
+        font-size: 5rem;
+    }
+
+    .card p {
+        font-size: 2.5rem;
+    }
+
+    .card .gif {
+        width: 40%;
+        max-width: 100px;
+    }
+}

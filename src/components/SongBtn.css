@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+
+.btn{
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(47, 9, 103);
+    color: white;
+    font-family:  "Oregano", cursive;
+    font-size: larger;
+    background-color: #a887e1; /* Equivalent to Tailwind's bg-indigo-400 */
+    padding-top: 0.5rem; /* Equivalent to Tailwind's py-2 */
+    padding-bottom: 0.5rem;
+    padding-left: 1rem; /* Equivalent to Tailwind's px-4 */
+    padding-right: 1rem;
+}

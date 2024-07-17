@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap');
+
+.get-wishes{
+    position: relative;
+    background-image: url('../assets/cat2.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:center ;
+}
+
+.get-wishes h3{
+    font-family: "Playwrite CL", cursive;
+    color: #7354a9;
+    font-size: 30px;
+    font-weight:bolder;
+    text-align: center;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.get-wishes-flex{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    padding: 10px;
+}
+/* .img-cat2{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%);
+} */
